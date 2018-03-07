@@ -2,15 +2,16 @@
 title: "Mini-Project 2"
 author: "Your Name Here"
 date: "October 31, 2017"
-output: html_document
+output: 
+  html_document: hide
+  
 ---
-
 
 ## Loading the data
 
 This project is so interesting and relevant to my life!
 
-```{r, include=FALSE}
+```{r}
 load("house_elections.rda")
 load("candidates.rda")
 load("committees.rda")
